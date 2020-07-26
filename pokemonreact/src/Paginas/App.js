@@ -5,7 +5,6 @@ import Header from '../Componentes/Header';
 import { Container, TypeContainer } from './Styles';
 import aquaimage from '../Imagens/unnamed.png'
 import logo from '../Imagens/logo_pokemon.png'
-import '../Imagens/Image.css'
 
 class App extends Component {
 
