@@ -2,25 +2,18 @@ import React, { Component, Fragment } from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import './App.css';
 import Header from '../Componentes/Header';
-import { Container, TypeContainer } from './Styles';
+import { Container, TypeContainer } from './main/Styles';
 import logo from '../Imagens/logo_pokemon.png'
+import Routes from '../rout'
 
 
-class App extends Component {
 
-
-  render() {
+  function App() {
     return (
-      <Fragment>
-        <Header />
-        <Container>
-          <TypeContainer bgcolor="#00FFFF">
-          <img src={logo}></img>
-          </TypeContainer>
-        </Container>
-      </Fragment>
+        <Routes />
+        
     );
   }
-}
+
 
 export default App;
